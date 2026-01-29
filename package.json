@@ -1,0 +1,19 @@
+{
+  "name": "tg-filestreambot-discontinue",
+  "version": "1.0.0",
+  "description": "Industrial Hybrid Slinger Worker",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@cloudflare/workers-types": "^4.20260124.0",
+    "big-integer": "^1.6.52",
+    "input": "^1.0.1",
+    "telegram": "^2.26.22"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0",
+    "typescript": "^5.0.0"
+  }
+}
