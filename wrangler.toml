@@ -1,14 +1,12 @@
 name = "tg-stream-worker"
 main = "src/index.ts"
-compatibility_date = "2024-01-01"
-
-[compatibility_flags]
-nodejs_compat = true
+compatibility_date = "2025-01-01"
+compatibility_flags = [ "nodejs_compat" ]
 
 [[kv_namespaces]]
 binding = "SESSIONS"
-id = "PASTE_YOUR_KV_ID_HERE"
+id = "89805f8a7b99473883b5727451910400"
 
 [[kv_namespaces]]
 binding = "FILE_MAP"
-id = "PASTE_YOUR_KV_ID_HERE"
+id = "b600c70086454e919fe6eac4578c8f5a"
